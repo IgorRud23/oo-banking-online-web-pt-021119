@@ -19,7 +19,7 @@ end
 
 def valid?
 if @status = "closed"
-  "closed"
+ true 
 end
 end
 end
