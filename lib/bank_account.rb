@@ -23,8 +23,11 @@ end
 def valid?
 if self
   true
+elsif @broke
+  true
+
 end
-end 
+end
 
 
 end
