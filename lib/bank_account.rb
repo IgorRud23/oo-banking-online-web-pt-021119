@@ -6,7 +6,7 @@ attr_reader :status, :name
 def initialize(name)
   @name = name
   @balance = 1000
-  @status = "open"
+  @status = status
 end
 
 def deposit(amount)
@@ -18,6 +18,6 @@ def display_balance
 end
 
 def status
-end 
+end
 
 end
