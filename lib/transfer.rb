@@ -15,7 +15,7 @@ end
 
 def valid?
 @sender.BankAccount.valid?
-@resiver.BankAccount.valid?
+@receiver.BankAccount.valid?
 end
 
 
