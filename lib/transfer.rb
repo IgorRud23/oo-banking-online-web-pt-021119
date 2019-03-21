@@ -14,7 +14,8 @@ def status
 end
 
 def valid?
-@sender = BankAccount.status == "open" && BankAccount.balance > 0 ? true : false
+   @sender = @status == "open" && @balance > 0 ? true : false
+   @receiver = @status == "open" && @balance > 0 ? true : false
 end
 
 
