@@ -20,8 +20,9 @@ end
 @broke = (@balance = 0)
 
 def valid?
-if @status = "closed"
- 
+
+
+
 
 end
 end
