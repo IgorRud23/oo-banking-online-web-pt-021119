@@ -18,6 +18,7 @@ def display_balance
 end
 
 def valid?
-
+if @status = "closed"
+  "closed"
 end
 end
