@@ -14,8 +14,9 @@ def status
 end
 
 def valid?
-   @sender = @status == "open" && @balance > 0 ? true : false
-   @receiver = @status == "open" && @balance > 0 ? true : false
+  @sender && @receiver = (@status == "open" && @balance > 0 ? true : false)
+    
+
 end
 
 
