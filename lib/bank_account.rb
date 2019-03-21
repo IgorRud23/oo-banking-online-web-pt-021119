@@ -17,9 +17,12 @@ def display_balance
   "Your balance is $#{@balance}."
 end
 
+@broke = (@balance = 0)
+
 def valid?
 if @status = "closed"
- true 
+ 
+
 end
 end
 end
