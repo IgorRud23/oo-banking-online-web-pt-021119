@@ -35,3 +35,5 @@ def reverse_transfer
     @status = "reversed"
 end
 end
+
+end
