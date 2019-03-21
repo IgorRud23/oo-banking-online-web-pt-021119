@@ -21,4 +21,5 @@ def valid?
 if @status = "closed"
   "closed"
 end
+end 
 end
