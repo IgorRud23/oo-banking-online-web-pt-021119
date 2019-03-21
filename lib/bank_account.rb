@@ -21,9 +21,8 @@ end
 @closed = (@status = "closed")
 
 def valid?
-if @broke
-
-end 
+if self
+  true
 end
 
 
