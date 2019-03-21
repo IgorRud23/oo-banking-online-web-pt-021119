@@ -18,11 +18,13 @@ def display_balance
 end
 
 @broke = (@balance = 0)
+@closed = (@status = "closed")
 
 def valid?
-
-
-
+if @broke
+  
 
 end
+
+
 end
