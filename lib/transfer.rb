@@ -18,7 +18,7 @@ def valid?
 end
 
 def execute_transaction
-@balance = (@balance - @amount) 
+@balance = (balance - amount) 
 end
 
 end
