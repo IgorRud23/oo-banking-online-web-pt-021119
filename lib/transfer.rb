@@ -11,7 +11,10 @@ end
 
 def status
   @status
-end 
+end
+
+def valid?
+  BankAccount.valid?
 
 
 
