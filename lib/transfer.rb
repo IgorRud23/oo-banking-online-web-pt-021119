@@ -14,7 +14,8 @@ def status
 end
 
 def valid?
-self.BankAccount.valid?
+@sender.BankAccount.valid?
+@resiver.BankAccount.valid?
 end
 
 
