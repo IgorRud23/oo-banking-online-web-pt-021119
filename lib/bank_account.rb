@@ -23,9 +23,9 @@ end
 def valid?
 if self.balance > 0 && @status = "open"
   true
-end 
 end
 end
+
 
 
 end
