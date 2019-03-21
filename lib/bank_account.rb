@@ -21,7 +21,7 @@ def valid?
 if self.balance > 0 || self.status = "open"
   true
 elsif self.balance = 0 || self.status = "closed"
-  false
+  @broke || @closed
 end
 end
 
