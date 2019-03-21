@@ -15,6 +15,7 @@ end
 
 def valid?
   BankAccount.valid?
+end 
 
 
 
