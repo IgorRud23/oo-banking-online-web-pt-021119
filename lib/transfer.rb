@@ -14,7 +14,7 @@ def status
 end
 
 def valid?
-
+self.BankAccount.valid?
 end
 
 
