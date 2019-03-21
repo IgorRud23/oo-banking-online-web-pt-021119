@@ -21,9 +21,9 @@ end
 @closed = (@status = "closed")
 
 def valid?
-if self
+if self.balance > 0 && @status = "open"
   true
-
+elsif 
 end
 end
 
