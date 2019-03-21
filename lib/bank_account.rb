@@ -23,7 +23,7 @@ end
 def valid?
 if self.balance > 0 && @status = "open"
   true
-elsif 
+end 
 end
 end
 
