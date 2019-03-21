@@ -18,11 +18,7 @@ def display_balance
 end
 
 def valid?
-if self.balance > 0 || self.status = "open"
-  true
-elsif self.balance = 0 || self.status = "closed"
-  @broke || @closed
-end
+@balance > 0 || @status = "open" ? true : false
 end
 
 
