@@ -24,6 +24,7 @@ def valid?
 if self
   true
 end
+end 
 
 
 end
