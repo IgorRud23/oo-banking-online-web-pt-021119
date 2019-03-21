@@ -22,8 +22,8 @@ end
 
 def valid?
 if @broke
-  
 
+end 
 end
 
 
