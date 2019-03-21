@@ -14,8 +14,8 @@ def status
 end
 
 def valid?
-  BankAccount.valid?
-end 
+
+end
 
 
 
