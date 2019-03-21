@@ -17,7 +17,7 @@ def display_balance
   "Your balance is $#{@balance}."
 end
 
-def self.valid?
+def valid?
   @status == "open" && @balance > 0 ? true : false
 end
 
