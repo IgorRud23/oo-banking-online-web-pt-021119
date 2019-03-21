@@ -29,6 +29,6 @@ def execute_transaction
 end
 
 def reverse_transfer
-
-end 
+execute_transaction.reverse
+end
 end
